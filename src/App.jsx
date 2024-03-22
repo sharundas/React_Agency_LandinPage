@@ -9,12 +9,12 @@ import Records from "./components/Records";
 import Service from "./components/Service";
 import Solution from "./components/Solution";
 import Team from "./components/Team";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
+   <div className="">
+    <Navbar />
       <Hero />
       <Service />
       <About />
@@ -24,7 +24,9 @@ function App() {
       <Team />
       <Contact />
       <Footer />
-    </BrowserRouter>
+   </div>
+    
+    
   );
 }
 

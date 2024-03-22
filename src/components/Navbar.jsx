@@ -4,31 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    // <div>
-    //   <div className="flex p-2 ml-5 block">
-    //     <h2 className="font-bold text-gray-500">ZeNN</h2>
-    //   </div>
-
-    //     {/* <ul className=''>
-    //       {
-    //         navLinks.map((nav) => {
-    //           <li key={nav.id} className="">{nav.title}</li>
-    //         })
-    //       }
-    //     </ul> */}
-    //     <ul className='flex text-center justify-between'>
-    //     {navLinks.map((nav, index) => (
-    //       <li
-    //         key={nav.id}
-    //         className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-secondary`}
-
-    //       >
-    //         <a href={`#${nav.id}`}>{nav.title}</a>
-    //       </li>
-    //     ))}
-    //     </ul>
-
-    // </div>
+   
     <nav className="bg-white  p-5 ">
       <div className=" mx-auto flex justify-between items-center">
         <a href="#" className="text-black text-3xl font-bold ml-8">
