@@ -11,7 +11,7 @@ export default function Hero() {
     //  </div>
     // </div>
 
-    <div
+    <div id="home"
       className="relative bg-cover bg-cente h-[700px] lg:h-[450px] w-screen "
       style={{ backgroundImage: `url(${heroImage})`}}
     >

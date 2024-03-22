@@ -4,7 +4,7 @@ import Testimonial1 from "../assets/testimonials-1.jpg";
 
 export default function Team() {
   return (
-    <div className="lg:m-10 m-1 flex flex-col items-center justify-center">
+    <div id="client" className="lg:m-10 m-1 flex flex-col items-center justify-center">
       <h2 className="text-gray-800 font-semibold underline text-3xl decoration-4 decoration-blue-400">
         Team
       </h2>

@@ -6,7 +6,8 @@ import { IconButton } from "@mui/material";
 
 export default function Service() {
   return (
-    <div className="py-10">
+    <div id="service"
+     className="py-10">
       <div
         className="flex flex-col text-center items-center justify-center 
  "

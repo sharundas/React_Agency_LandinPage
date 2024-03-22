@@ -3,7 +3,7 @@ import Form from './Form'
 
 export default function Contact() {
   return (
-    <div className='w-full h-screen p-10 bg-tertiary flex flex-col justify-center items-center '>
+    <div id='contact' className='w-full h-screen p-10 bg-tertiary flex flex-col justify-center items-center'>
       <h2 className="text-gray-900 font-bold text-3xl underline decoration-4 decoration-blue-400 p-2">Contact</h2>
       <p className="text-gray-600 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ut.</p>
       <div className="flex flex-col lg:flex-row">

@@ -21,21 +21,3 @@ export default function TeamCards({imageUrl,title, subtitle, name }) {
     </div>
   );
 }
-
-// {teams.map((team,index) => (
-//   <div key={index} className="">
-//   <img src={team.imgUrl} className='className="w-24 h-24 object-cover rounded-full mb-2"' alt="" />
-//   <h2 className="text-black">{team.name}</h2>
-//     <p className="">{team.title}</p>
-// </div>
-// ))}
-
-{/* <div className="gpt3__features-container__feature">
-  <div className="gpt3__features-container__feature-title">
-    <div />
-    <h1>{title}</h1>
-  </div>
-  <div className="gpt3__features-container_feature-text">
-    <p>{text}</p>
-  </div>
-</div>; */}

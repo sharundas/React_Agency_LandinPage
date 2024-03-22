@@ -7,7 +7,7 @@ import { IconButton } from "@mui/material";
 
 export default function Records() {
   return (
-    <div className="flex flex-col p-10 lg:flex-row">
+    <div id="about-us" className="flex flex-col p-10 lg:flex-row">
       <div className="flex flex-1 justify-evenly flex-row mt-12  ">
         <div className="flex flex-col items-center justify-center ">
           <IconButton style={{ background: "rgba(181, 219, 227, 0.2)" }}>
