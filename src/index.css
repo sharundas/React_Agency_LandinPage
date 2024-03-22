@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-image: linear-gradient(to right top, #0f0f27, #120c22, #13091d, #120718, #100513, #140e1a, #161520, #181a27, #142a3b, #013b4a, #004c51, #0e5d50); */
+  /* background-image: linear-gradient(to right top, #000000, #090406, #10080e, #130c14, #15101a, #12111b, #0f131c, #0c141d, #071219, #051014, #050d0f, #060909); */
+  
+  height: 100vh;
+  background-repeat: no-repeat;
+}
