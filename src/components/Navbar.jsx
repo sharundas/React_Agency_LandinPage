@@ -1,6 +1,5 @@
 import React from "react";
 import { navLinks } from "../constants";
-import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -14,8 +13,7 @@ export default function Navbar() {
         <ul className="flex space-x-12 mr-20">
           {navLinks.map((nav, index) => (
             <li key={nav.id}>
-              <Link>
-              </Link>
+              
               <a href={`#${nav.id}`} className="text-black">
                
                 {nav.title}
